@@ -1,0 +1,14 @@
+.btn-danger:hover{
+    background-color : rgb(128, 60, 0);
+}
+
+canvas{
+animation-name: esa;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes esa{
+    from{box-shadow: 1px 1px 38px rgb(238, 130, 188);}
+    to{box-shadow: 1px 1px 38px rgb(0, 106, 255);}
+}
